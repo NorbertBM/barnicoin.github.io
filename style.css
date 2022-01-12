@@ -29,6 +29,9 @@ chain-link {
 .block a {
   text-decoration: none;
 }
+.block .card-header {
+    background-color: #333;
+  }
 
 .block h5 {
   margin-top: 1rem;
