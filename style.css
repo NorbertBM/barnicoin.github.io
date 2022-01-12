@@ -1,0 +1,45 @@
+.bg-dark-blue {
+  background-color: #24292f;
+}
+
+blockchain {
+  max-height: 700px;
+  max-width: 900px;
+  overflow: scroll;
+  overflow-y: hidden;
+  padding: 2rem;
+}
+
+chain-link {
+  font-size: 1.5rem;
+  margin: 0.8rem;
+  color: gray;
+}
+
+.btn-close {
+  background-color: red !important;
+}
+
+.block {
+  cursor: pointer;
+  color: red;
+  min-width: 300px;
+}
+
+.block a {
+  text-decoration: none;
+}
+
+.block h5 {
+  margin-top: 1rem;
+}
+
+.block.active {
+  border: 1px solid blue;
+  box-shadow: 0 0px 15px 0.5px #ccc;
+}
+
+.block .hash {
+  color: blue;
+}
+/*# sourceMappingURL=mainStyle.css.map */
