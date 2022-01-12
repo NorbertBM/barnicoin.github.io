@@ -40,7 +40,7 @@ chain-link {
 }
 
 .block .hash {
-  color: blue;
+  color: red;
   display: block;
   white-space: nowrap;
   overflow: hidden;
