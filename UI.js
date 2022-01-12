@@ -1,5 +1,7 @@
-document.querySelectorAll(".block").forEach(
+const blocks = document.querySelectorAll(".block");
+blocks.forEach(
   // Make selected block active
+
   (block) =>
     (block.onclick = () => {
       document.querySelectorAll(".block").forEach((block) => {
@@ -9,10 +11,7 @@ document.querySelectorAll(".block").forEach(
     })
 );
 
-const closeBtn = document
-  .querySelectorAll("button.btn-close")
-  .forEach(
-    (closeBtn) =>
-      (closeBtn.onclick = (e) =>
-        e.target.parentElement.parentElement.classList.remove("show"))
-  );
+setTimeout(() => {
+  const numberOfBlocks = (document.querySelector("#nrBlocks").innerText =
+    blocks.length);
+}, 1000);
