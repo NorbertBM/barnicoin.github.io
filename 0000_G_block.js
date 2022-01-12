@@ -2,7 +2,7 @@ let blockchain = document.querySelector("blockchain");
 
 let blockID;
 let name;
-createBlock(5);
+createBlock(1);
 function createBlock(blockID, name = "Norbert BM") {
   let newChain = ` 
   <i class="fas fa-link"></i>
