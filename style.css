@@ -41,5 +41,8 @@ chain-link {
 
 .block .hash {
   color: blue;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-/*# sourceMappingURL=mainStyle.css.map */
