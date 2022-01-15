@@ -19,7 +19,9 @@ function createBlock(
 
   <div class="card-header">
     <span class="display-4">Block ${blockID} </span>
+    <p>
     <a href="${href}" target=_blank class="text-info">(${name})</a>
+    </p>
   </div>
 
   <ul class="list-group list-group-flush">
