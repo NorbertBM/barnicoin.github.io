@@ -1,9 +1,9 @@
 # barnicoin.github.io
 This is a blockchain meant for educational purpesos only. 
 
-
+Pls bare in minde that this is not a acctual real blockchain, there is absolutly no financial value in this accepting the enormas value of beeing part of a comuniti. This is meant 
  
- Hi, this is a block from the BarnyCoin Blockchain. If you wish to add to this blockchain and do the following:
+ Hi, this is a block from the BarniCoin Blockchain. If you wish to add to this blockchain and do the following:
   ## Todo: 
  - Open the Blocks directory
  - In the Blocks directory create or copy the last javascript file and rename it with the next number in the chain.
