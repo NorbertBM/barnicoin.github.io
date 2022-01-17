@@ -25,7 +25,7 @@
     />
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css" />
-    <title>BarnyCoin Ledger</title>
+    <title>BarniCoin Ledger</title>
   </head>
   <body>
     <!-- Navigation -->
@@ -66,10 +66,15 @@
       <h1 class="display-1 h1 mt-5">
         Blocks on chain: <span id="nrBlocks">1</span>
       </h1>
+
+      <a
+        href="https://github.com/NorbertBM/barnicoin.github.io/blob/main/README.md"
+        target="_blank"
+        ><button class="btn btn-danger">Add Your Block</button></a
+      >
       <p>Click on Name to view GitHub profile</p>
 
       <blockchain class="d-flex align-items-center">
-        <!-- <canvas width="512px" height="512px"> </canvas> -->
         <!-- Block 1-->
 
         <block
@@ -122,7 +127,6 @@
     <!--JavaScript for adding a nes Block  -->
     <script src="./Blocks/0001_G_block.js"></script>
     <script src="./Blocks/0002_block.js"></script>
-   
 
     <!-- Javascript for the UI -->
     <script src="UI.js"></script>
